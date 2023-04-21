@@ -14,6 +14,6 @@ Users can choose from three different models which differ in the cpg probes used
 In order to use these models:
 
 1. Clone this repository to have access to source functions and reference tables.
-2. Load your DNA methylation beta matrix into an R session as a dataframe with CpGs as rows and samples as columns.
+2. Load your DNA methylation beta matrix into an R session as a dataframe with samples as rows and CpGs as columns.
 3. Load the reference table from one of the 3 models available in the data folder.
 4. Use the "psi_predict" function to predict smoking status and calculate a Placenta Smoking Index (PSI) score for each sample.
